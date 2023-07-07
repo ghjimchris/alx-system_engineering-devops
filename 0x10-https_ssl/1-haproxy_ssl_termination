@@ -38,7 +38,7 @@ backend jamesaidoo.tech-backend
         balance roundrobin
         server 193127-web-01 3.80.18.91:80 check
         server 193127-web-02 52.7.244.247:80 check
-frontend graceeffiong.tech-frontend
+frontend jamesaidoo.tech-frontend
         bind *:80
         bind *:443 ssl crt /etc/letsencrypt/live/www.jamesaidoo.tech-0002/fullchain.pem
         mode http
