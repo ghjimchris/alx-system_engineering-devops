@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# install nginx and adjust default homepage
+# install nginx and change default homepage
 
 apt-get update -y
 apt-get install -y nginx
